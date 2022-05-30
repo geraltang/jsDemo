@@ -52,8 +52,11 @@
     obj.income = 0
     console.table(obj);
 
-    obj['name'] = 'Tianyang'
+    obj["name"] = "Tianyang"
     console.table(obj);
+
+    obj.name = "testing"
+    console.table(obj)
 }
 
 {
@@ -79,7 +82,7 @@
     obj_3.age = 100
     console.log(obj, obj_3);
 
-    let user = {
+    let user = { 
         name: "Raymond",
         age: 18,
         profile: {
@@ -202,4 +205,10 @@
     console.log(!!!!true);
 
 
+}
+
+{
+    let x = 2
+    let y = 3
+    console.log(x + y)
 }

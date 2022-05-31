@@ -138,7 +138,6 @@
 {
     let x = 2
     let y = 3
-    console.log(x ?? y)
     console.log(x + y);
     console.log(x - y);
     console.log(x * y);
@@ -200,15 +199,9 @@
     console.log('0' || false);
 
     console.log(false || 10);
-    console.log(4 || 10);
+    console.log(5 || 10);
 
-    console.log(!!!!true);
+    console.log(!!!!100);
 
 
-}
-
-{
-    let x = 2
-    let y = 3
-    console.log(x + y)
 }

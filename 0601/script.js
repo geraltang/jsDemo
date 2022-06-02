@@ -71,6 +71,14 @@
     }
 
     console.log(newArrayNumber);
+
+    newArrayNumber.forEach(num => {
+        console.log(num)
+    })
+
+    for (let i = 0; i < newArrayNumber.length; i++) {
+        console.log(newArrayNumber[i]);
+    }
 }
 
 {

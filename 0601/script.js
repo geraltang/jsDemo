@@ -79,6 +79,17 @@
     for (let i = 0; i < newArrayNumber.length; i++) {
         console.log(newArrayNumber[i]);
     }
+
+    let str = ''
+    for (let i = 1; i < 10; i++) {
+        for (let j = 1; j <= i; j++) {
+            str += `${i}*${j}=${i * j} `;
+            if (i === j) {
+                str += '\n'
+            }
+        }
+    }
+    console.log(str);
 }
 
 {
@@ -146,7 +157,7 @@
 
     function func7({ name, age }) {
         name = "Tian",
-            age = 20
+        age = 20
         return { name, age }
     }
 

@@ -148,7 +148,7 @@
         console.log("name: ", obj.name);
         console.log("age: ", obj.age);
 
-        obj.name = "Tian"
+        obj.name = "TTian"
         obj.age = 30
     }
 
@@ -157,7 +157,7 @@
 
     function func7({ name, age }) {
         name = "Tian",
-        age = 20
+            age = 20
         return { name, age }
     }
 
@@ -169,20 +169,24 @@
         console.log('func8');
     }
 
-    func8
+    func8()
 
     const arrow_func1 = () => {
         console.log('array_func1');
     }
-    arrow_func1
+    arrow_func1()
 
     const arrow_func2 = a => {
         console.log(a);
     }
 
+    arrow_func2("sdsd")
+
     const arrow_func3 = (a, b) => {
-        console.log(a);
+        console.log(a + b + 5);
     }
+
+    arrow_func3(3, 7)
 
     const array = [1, 2, 3, 4, 5]
     const array_func4 = (num) => {
@@ -245,14 +249,9 @@
 
     const contents = document.querySelectorAll(".content")
 
-    console.log(contents);
-
     contents.forEach((node, index) => {
         node.innerHTML = `content ${index}`
     })
-
-    // document.getElementById()
-    // document.getElementsByClassName()
 
     const span = document.createElement('div')
     span.innerHTML = "<h1>Click Me</h1>"

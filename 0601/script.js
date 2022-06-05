@@ -260,11 +260,11 @@
     domBody.appendChild(span)
 
     span.classList.add('active')
-    // span.classList.remove('active')
 
     span.setAttribute('style', 'cursor: pointer')
 
     span.addEventListener('click', () => {
         span.classList.toggle('active')
     })
+
 }

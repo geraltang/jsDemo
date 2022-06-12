@@ -1,6 +1,4 @@
-"use strict"
-
-console.log('helwewelo world')
+console.log('hello world')
 
 {
     const radius = 1
@@ -10,9 +8,13 @@ console.log('helwewelo world')
         console.log('draw');
     }
 
-    draw()
+    draw2()
 
-    const circle = {
+    function draw2(){
+        console.log('draw2')
+    }
+
+    const circle1 = {
         radius: 1,
         location: {
             x: 1,
@@ -22,13 +24,10 @@ console.log('helwewelo world')
         draw1: function () {
             console.log('draw1');
         },
-        draw2() {
-            console.log('draw2');
-        }
+
     }
 
-    circle.draw1()
-    circle.draw2()
+    circle1.draw1()
 
     const circle2 = {
         radius: radius,
@@ -39,21 +38,15 @@ console.log('helwewelo world')
 
     circle2.draw()
 
-    // const circle3 = {
-    //     radius,
-    //     location,
-    //     isVisible,
-    //     draw
-    // }
+    const circle3 = {
+        radius,
+        location,
+        isVisible,
+        draw
+    }
 
-    // circle3.draw()
+    circle3.draw()
 
-    const circle3 = { radius, location, isVisible, draw }
-
-
-}
-
-{
     function createCircle(radius) {
         return {
             radius,
@@ -63,40 +56,20 @@ console.log('helwewelo world')
             draw2: function () {
                 console.log('draw2', radius, this.radius);
             },
-            // draw3: () => {
-            //     console.log('draw3', radius, this.radius);
-            // },
+            draw3: () => {
+                console.log('draw3', radius, this.radius);
+            },
         }
     }
-
 
     const circle4 = createCircle(4)
-    circle4.radius = 2
     circle4.draw1()
     circle4.draw2()
-    // circle4.draw3()
-}
-
-{
-    function Circle5(radius) {
-        this.radius = radius;
-        this.draw1 = function () {
-            console.log('draw1', this.radius);
-        }
-        this.draw2 = () => {
-            console.log('draw2', this.radius);
-        }
-    }
-
-    const circle5 = new Circle5(4)
-    console.log(circle5);
-    circle5.draw1()
-    circle5.draw2()
+    circle4.draw3()
 
 }
 
 {
-
     class Car {
         seat = 4
         sit(num) {
@@ -107,29 +80,6 @@ console.log('helwewelo world')
     const car = new Car()
 
     car.sit(5)
-
-
-    // class CircleClass {
-    //     radius = undefined
-    //     constructor(radius) {
-    //         this.radius = radius
-    //     }
-
-    //     draw1() {
-    //         console.log('draw1', radius, this.radius);
-    //     }
-    //     draw2 = function ()  {
-    //         console.log('draw2', radius, this.radius);
-    //     }
-    //     draw3 = () => {
-    //         console.log('draw3', radius, this.radius);
-    //     }
-    // }
-
-    // const circle6 = new CircleClass(6)
-
-    // circle6.draw1()
-
 }
 
 {

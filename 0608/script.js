@@ -10,7 +10,7 @@ console.log('hello world')
 
     draw2()
 
-    function draw2(){
+    function draw2() {
         console.log('draw2')
     }
 
@@ -67,6 +67,21 @@ console.log('hello world')
     circle4.draw2()
     circle4.draw3()
 
+    function Circle5(radius) {
+        this.radius = radius;
+        this.draw1 = function () {
+            console.log("draw1", this.radius);
+        }
+        this.draw2 = () => {
+            console.log("draw2", this.radius);
+        }
+    }
+
+    const circle5 = new Circle5(4)
+    console.log(circle5);
+    circle5.draw1()
+    circle5.draw2()
+
 }
 
 {
@@ -80,6 +95,30 @@ console.log('hello world')
     const car = new Car()
 
     car.sit(5)
+
+    const radius = 333
+
+    class CircleClass {
+        radius = undefined
+        constructor(radius) {
+            this.radius = radius
+            radius = 2
+        }
+        draw1() {
+            console.log('draw1', radius, this.radius);
+        }
+        draw2 = function () {
+            console.log('draw2', this.radius);
+        }
+        draw3 = () => {
+            console.log('draw3', this.radius);
+        }
+    }
+
+    const circle6 = new CircleClass(6)
+    circle6.draw1()
+    circle6.draw2()
+    circle6.draw3()
 }
 
 {

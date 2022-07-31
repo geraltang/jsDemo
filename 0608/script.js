@@ -15,7 +15,7 @@ console.log('hello world')
     }
 
     const circle1 = {
-        radius: 1,
+        radius: 3,
         location: {
             x: 1,
             y: 2

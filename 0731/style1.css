@@ -1,5 +1,5 @@
 html,
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -9,22 +9,22 @@ body{
     cursor: pointer;
 }
 
-li.second{
+li.second {
     text-decoration: none;
     border: 2px;
     background: rgb(228, 39, 39);
 }
 
-li:nth-child(2){
+li:nth-child(2) {
     list-style: none;
     color: yellowgreen;
 }
 
-div.secudo{
+div.secudo {
     font-size: 35px;
 }
 
-.secudo:before{
+.secudo:before {
     content: "A";
     font-weight: bold;
     display: block;
@@ -34,11 +34,15 @@ div.secudo{
     color: rgb(28, 100, 189);
 }
 
-div.block{
+div.block {
     width: 300px;
     height: 300px;
     background: rgb(140, 80, 80);
     border: 10px solid blue;
     left: 150px;
     position: relative;
+}
+
+.total sub{
+    font-size: larger;
 }

@@ -1,6 +1,4 @@
-console.log("asdsd")
-
-ul.addeventlistener 
+console.log("input from JS")
 
 const co11n = document.querySelector('.co11n')
 co11n.innerHTML = 'test from js'
@@ -22,3 +20,8 @@ if ((daytime > 18 && daytime < 24) || (daytime > 0 && daytime < 6)) {
     console.log('day')
 }
 
+co11n.addEventListener('click', () => {
+    co11n.classList.toggle('active')
+})
+
+co11n.setAttribute('style', 'cursor: pointer')

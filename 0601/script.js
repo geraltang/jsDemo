@@ -245,7 +245,7 @@
 
 {
     const content = document.querySelector(".content")
-    content.innerHTML = 'Hahahaha'
+    content.innerHTML = 'input from javascript'
 
     const contents = document.querySelectorAll(".content")
 

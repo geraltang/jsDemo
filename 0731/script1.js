@@ -1,7 +1,7 @@
 console.log("input from JS")
 
 const co11n = document.querySelector('.co11n')
-co11n.innerHTML = 'test from js'
+co11n.innerHTML = '<h1>test from js</h1>'
 
 let qtime = 100
 console.log(qtime > 100 ? 'good' : 'bad')

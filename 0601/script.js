@@ -245,13 +245,13 @@
 
 {
     const content = document.querySelector(".content")
-    content.innerHTML = 'input from javascript'
+    // content.innerHTML = 'input from javascript'
 
-    const contents = document.querySelectorAll(".content")
+    // const contents = document.querySelectorAll(".content")
 
-    contents.forEach((node, index) => {
-        node.innerHTML = `content ${index}`
-    })
+    // contents.forEach((node, index) => {
+    //     node.innerHTML = `content ${index}`
+    // })
 
     const span = document.createElement('div')
     span.innerHTML = "<h1>Click Me</h1>"

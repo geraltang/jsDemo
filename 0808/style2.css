@@ -1,4 +1,4 @@
-.sidebar{
+.sidebar {
     position: relative;
     margin: 200px auto;
     width: 400px;
@@ -6,7 +6,7 @@
     background-color: #f0f0f0;
 }
 
-.sidebar::before{
+.sidebar::before {
     position: absolute;
     content: "";
     width: 50px;
@@ -17,7 +17,7 @@
     z-index: -1;
 }
 
-.sidebar .title{
+.sidebar .title {
     height: 20%;
     display: flex;
     justify-content: center;
@@ -25,6 +25,6 @@
     border-bottom: 1px solid #555;
 }
 
-.sidebar .content{
+.sidebar .content {
     padding: 20px;
 }

@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jpg{
+    width: 500px;
+    height: auto;
+}
+
+.leftdown{
+    left: 100px;
+}

@@ -1,0 +1,31 @@
+.navbar {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.nav-item {
+    display: block;
+    border: 2px solid black;
+    width: 200px;
+    padding: 8px 16px;
+    border-bottom : none
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-item:first-child{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.nav-item:last-child{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom: 2px solid black;
+}
+
+.nav-item:hover{
+    background-color: #cccccc;
+}

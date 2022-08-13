@@ -1,15 +1,35 @@
-header{
+header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.jpg{
+.jpg {
     width: 500px;
     height: auto;
 }
 
-.leftdown{
+.left {
     left: 100px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.mainContent {
+    display: flex;
+    border: 2px solid red;
+    height: 500px;
+    width: 250px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mainContent li:nth-child(3) {
+    list-style: none;
 }

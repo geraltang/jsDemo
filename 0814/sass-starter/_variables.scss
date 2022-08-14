@@ -1,0 +1,14 @@
+$main-color: #521751;
+$flex-display: flex;
+$size-tiny: 1rem;
+
+
+$font-family-default: Arial, sans-serif;
+
+
+$colors: (
+    main: #521751,
+    secondary: #fa923f
+);
+
+$border-default: 0.05rem solid map-get($colors, main);

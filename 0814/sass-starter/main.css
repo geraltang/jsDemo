@@ -1,6 +1,16 @@
-@import "typography.css";
+.char-highlight {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #521751;
+}
+
 html {
   font-size: 94.75%;
+}
+@media (min-width: 40rem) {
+  html {
+    font-size: 125%;
+  }
 }
 
 body {
@@ -19,15 +29,28 @@ body {
   padding: 3rem 0;
   box-sizing: border-box;
 }
+@media (min-width: 40rem) {
+  .container {
+    padding: 3rem 0;
+  }
+}
 
-.sass-introduction {
+.sass-section, .sass-details, .sass-introduction {
   border: 0.05rem solid #521751;
   background: #f7e1f6;
-  padding: 2rem;
   text-align: center;
-  box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
   width: 90%;
   box-sizing: border-box;
+}
+
+.sass-introduction {
+  padding: 2rem;
+  box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
+}
+@media (min-width: 40rem) {
+  .sass-introduction {
+    width: 30rem;
+  }
 }
 
 .sass-introduction p {
@@ -35,13 +58,13 @@ body {
 }
 
 .sass-details {
-  border: 0.05rem solid #521751;
-  background: #fae5ff;
   padding: 1rem;
-  text-align: center;
   margin: 2rem 0;
-  width: 90%;
-  box-sizing: border-box;
+}
+@media (min-width: 40rem) {
+  .sass-details {
+    width: 30rem;
+  }
 }
 
 .section-header {
@@ -76,24 +99,10 @@ body {
   border: 0.05rem solid #521751;
 }
 
-.documentation-links .documentation-link:hover,
-.documentation-links .documentation-link:active {
+.documentation-link:hover, .documentation-link:active {
   color: white;
   background: #fa923f;
   border-color: #fa923f;
-}
-
-@media (min-width: 40rem) {
-  html {
-    font-size: 125%;
-  }
-  .container {
-    padding: 3rem 0;
-  }
-  .sass-introduction,
-.sass-details {
-    width: 30rem;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,77 +1,77 @@
 html,
 body {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background: url(./Sydney.jpg) no-repeat;
-    background-size: cover
-    
+body {
+  background: url(./Sydney.jpg) no-repeat;
+  background-size: cover;
+}
+
+.button-style, .button2, .button {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .button {
-    font-size: 3rem;
-    text-decoration: none;
-    background-color: rgb(221, 215, 215);
-    color: black;
-    padding: 10px 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-    border: 2px solid;
+  font-size: 3rem;
+  background-color: rgb(97, 121, 182);
+  color: black;
+  padding: 10px 10px;
+  border: 2px solid;
 }
 
-.button2{
-    font-size: 3rem;
-    text-decoration: none;
-    background-color: rgb(97, 121, 182);
-    color: black;
-    padding: 10px 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-    border-radius: 8px;
+.button2 {
+  font-size: 3rem;
+  background-color: rgb(97, 121, 182);
+  color: black;
+  padding: 10px 10px;
+  border-radius: 8px;
 }
 
 .header {
-    position: relative;
-    top: 10vh;
-    left: 75vw;
-    z-index: 99;
+  position: relative;
+  top: 10vh;
+  left: 75vw;
+  z-index: 99;
 }
 
 .h2 {
-    color: blue;
-    font-size: 60px;
-    padding-top: 20px;
+  color: blue;
+  font-size: 60px;
+  padding-top: 20px;
 }
 
 .date {
-    color: green;
-    font-size: 50px;
+  color: green;
+  font-size: 50px;
 }
 
 .text-content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    height: 150px;
-    top: 450px;
-    /* left: 10vw; */
-    /* border: 3px solid black; */
-    border-left: 6px solid red;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 150px;
+  top: 450px;
+  /* left: 10vw; */
+  /* border: 3px solid black; */
+  border-left: 6px solid red;
 }
 
-footer{
-    position: relative;
-    left: 75%;
-    top: 50%;
+footer {
+  position: relative;
+  left: 75%;
+  top: 50%;
 }
+
+/*# sourceMappingURL=style.css.map */

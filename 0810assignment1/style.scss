@@ -1,0 +1,83 @@
+@import "variables.scss";
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./Sydney.jpg) no-repeat;
+    background-size: cover
+}
+
+.button-style{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.button {
+    @extend .button-style;
+    font-size: $standard-font-size * 3;
+    background-color: $button-color;
+    color: map-get($background-color, first);
+    padding: $padding-size;
+    border: 2px solid;
+}
+
+.button2 {
+    @extend .button-style;
+    font-size: 3rem;
+    background-color: $button-color;
+    color: black;
+    padding: $padding-size;
+    border-radius: 8px;
+}
+
+.header {
+    position: relative;
+    top: 10vh;
+    left: 75vw;
+    z-index: 99;
+}
+
+.h2 {
+    color: map-get($map: $background-color, $key: second);
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+.date {
+    color: green;
+    font-size: 50px;
+}
+
+.text-content {
+    position: relative;
+    display: flex;
+
+    flex: {
+        direction: column;
+    }
+
+    width: 450px;
+    height: 150px;
+    top: 450px;
+    /* left: 10vw; */
+    /* border: 3px solid black; */
+    border-left: 6px solid map-get($background-color, third);
+}
+
+footer {
+    position: relative;
+    left: 75%;
+    top: 50%;
+}

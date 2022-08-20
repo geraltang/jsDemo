@@ -33,13 +33,13 @@
 // console.log(teacher.age);
 // console.log(teacher[gender]);
 
-// var students = ['Jing', 'Emily', 'Holly', 'Shawn'];
+// var students = ['Jane', 'Emily', 'Holly', 'Shawn'];
 // console.log(students[2])
 
 // var concat = "2" + "3";
 // console.log(concat)
 
-// var names = ['Jing','Emily','Holly','Jack'];
+// var names = ['Jimmy','Emily','Holly','Jack'];
 // names.push('Tom');
 // names.pop();
 // names[2] = 'Tom'
@@ -97,7 +97,7 @@
 //     return res
 // }
 
-// console.log(firstTen(2,5,50));
+// console.log(firstTen(2,5,100));
 
 var sum = function (num1, num2) {
     return num1 + num2;

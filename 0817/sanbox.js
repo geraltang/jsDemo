@@ -110,4 +110,4 @@ function firstSumThenDouble(sumFunc123, num3, num4) {
     return sum1 * 2
 }
 
-console.log(firstSumThenDouble(sum,2,3));
+console.log(firstSumThenDouble(sum, 2, 3));

@@ -1,4 +1,4 @@
-.bottom{
+.bottom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
     font-family: sans-serif;
 }
 
-.left{
+.left {
     width: 30%;
 }
 
@@ -21,13 +21,15 @@
     margin-left: 20px;
     max-width: 150px;
     border-radius: 20px;
+    gap: ;
+
 }
 
-.left a:hover{
+.left a:hover {
     background-color: blueviolet;
 }
 
-.right{
+.right {
     width: 60%;
 }
 
@@ -35,18 +37,18 @@ h2 {
     font-family: sans-serif;
 }
 
-.unorder{
+.unorder {
     display: flex;
     flex-wrap: wrap;
     padding: 5px 5px;
 }
 
-.list{
+.list {
     max-width: 50%;
     list-style: none;
     max-width: 300px;
 }
 
-.first_line{
+.first_line {
     color: blue;
 }

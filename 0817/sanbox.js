@@ -71,3 +71,43 @@
 //     }
 // }
 
+// var res = [];
+// for (var i = 0; i <= 100; i++) {
+
+//     if (i % 4 === 0 && i % 5 !== 0) {
+//         res.push(i);
+//     }
+//     if (res.length === 10) {
+//         break;
+//     }
+// }
+// console.log(res);
+
+// var res =[];
+// function firstTen(param1, param2, param3){
+//     for (var i=0; i<= param3; i++){
+//         if (res.length === 10){
+//             break
+//             // return console.log(res)
+//         }
+//         if (i% param1 === 0 && i% param2 !== 0){
+//             res.push(i);
+//         }
+//     }
+//     return res
+// }
+
+// console.log(firstTen(2,5,50));
+
+var sum = function (num1, num2) {
+    return num1 + num2;
+}
+
+var newSum
+
+function firstSumThenDouble(sumFunc123, num3, num4) {
+    var sum1 = sumFunc123(num3, num4);
+    return sum1 * 2
+}
+
+console.log(firstSumThenDouble(sum,2,3));

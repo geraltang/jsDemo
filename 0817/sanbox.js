@@ -99,15 +99,37 @@
 
 // console.log(firstTen(2,5,100));
 
-var sum = function (num1, num2) {
-    return num1 + num2;
+// var sum = function (num1, num2) {
+//     return num1 + num2;
+// }
+
+// var newSum
+
+// function firstSumThenDouble(sumFunc123, num3, num4) {
+//     var sum1 = sumFunc123(num3, num4);
+//     return sum1 * 2
+// }
+
+// console.log(firstSumThenDouble(sum, 2, 3));
+
+// for (var key in person){
+//     console.log(key);
+// }
+
+function getSumIndices(array, target) {
+    if (!array || array.length < 2) {
+        console.log([]);
+    }
+
+    for (var i = 0; i < array.length; i++) {
+        var index1 = i;
+        var index2 = array.indexOf(target - array[i]);
+
+        if (index2 !== -1) {
+            console.log([index1, index2]);
+            break;
+        }
+    }
 }
 
-var newSum
-
-function firstSumThenDouble(sumFunc123, num3, num4) {
-    var sum1 = sumFunc123(num3, num4);
-    return sum1 * 2
-}
-
-console.log(firstSumThenDouble(sum, 2, 3));
+getSumIndices([1, 3, 4, 6, 7, 8, 10, 14, 15], 14);

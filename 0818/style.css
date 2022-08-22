@@ -30,6 +30,7 @@
 
 .wrapper :nth-child(2){
     transform: translateY(50px);
+
 }
 
 .wrapper :nth-child(3){

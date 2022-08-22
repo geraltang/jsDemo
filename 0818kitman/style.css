@@ -1,0 +1,68 @@
+h3 {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.what-we-do-section {
+    max-width: 1200px;
+}
+
+.relative {
+    position: relative;
+}
+
+.feather-item {
+    box-shadow: 0 10px 40px rgb(0 0 0 / 7%);
+    border-radius: 8px;
+    padding: 50px 37px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.feather-item img {
+    width: 100%;
+}
+
+.what-we-do-text {
+    margin: 0 0 90px 0;
+    color: #f35a38;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.digital-solutions {
+    margin: 0 0 30px 0;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #0e2258;
+}
+
+.discover-more {
+    background-color: transparent;
+    color: #0e2258;
+    border: 2px solid #0e2258 !important;
+    margin: 15px 0 0 0;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 14px 35px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-p {
+    line-height: 1.6;
+    padding: 0 0 10px 0;
+}

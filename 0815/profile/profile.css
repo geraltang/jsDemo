@@ -112,7 +112,7 @@ ul li {
 
 }
 
-.card_content .image img{
+.card_content .image img {
     width: 100%;
 }
 
@@ -124,26 +124,26 @@ ul li {
     padding: 25px;
 }
 
-.info h3{
+.info h3 {
     width: 100%;
     font-weight: 600;
 }
 
-.info p{
+.info p {
     font-size: 14px;
     color: #333;
     margin: 10px 0;
 }
 
-.info p span{
+.info p span {
     font-weight: 600;
 }
 
-.info .btnContainer{
+.info .btnContainer {
     width: 100%;
 }
 
-.info button{
+.info button {
     padding: 7px 0;
     background-color: var(--main-color);
     border: none;
@@ -158,7 +158,7 @@ ul li {
     font-weight: 600;
 }
 
-.info a i{
+.info a i {
     padding: 8px;
     background-color: white;
     color: var(--main-color);

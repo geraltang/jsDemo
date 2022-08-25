@@ -14,6 +14,7 @@ p {
 
 .what-we-do-section {
     max-width: 1200px;
+    align-items: flex-start;
 }
 
 .relative {

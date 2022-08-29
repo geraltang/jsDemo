@@ -89,6 +89,7 @@ main {
   main {
     grid-gap: 20px;
   }
+
   .card {
     grid-column-end: span 12;
   }
@@ -99,11 +100,13 @@ main {
     grid-template-columns: 10px repeat(6, 1fr) 10px;
     grid-gap: 10px;
   }
+
   .cards {
     grid-column: 2 / span 6;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 20px;
   }
+
   .card {
     grid-column-end: span 6;
   }

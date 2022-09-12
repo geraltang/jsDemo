@@ -65,7 +65,7 @@ body::before {
 }
 
 .left-arrow {
-    left: calc(15vw - 25px);
+    left: calc(15vw - 65px);
 }
 
 .right-arrow {
